@@ -1,0 +1,18 @@
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer img {
+    width: 8%;
+    height: auto;
+    filter: brightness(0) invert(1);
+    padding-top: 46px;
+    padding-bottom: 28px;
+}
+
+.footer p {
+    font-size: 24px;
+}

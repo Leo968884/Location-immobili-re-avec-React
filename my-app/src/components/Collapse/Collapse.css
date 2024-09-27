@@ -1,0 +1,49 @@
+.collapse {
+    width: 80%;
+    margin: 10px 0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.collapse-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #FF6060;
+}
+
+.collapse-header h2 {
+    margin: 0;
+    color: #FFFFFF;
+}
+
+.collapse-header i {
+    font-size: 20px;
+    color: #FFFFFF;
+    transition: transform 0.3s ease;
+}
+
+.collapse-header i.rotate {
+    transform: rotate(-180deg);
+}
+
+.collapse-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+    opacity: 0;
+    background-color: #F6F6F6;
+}
+
+.collapse-content.open {
+    max-height: 500px;
+    opacity: 1;
+}
+
+.collapse-content p {
+    margin: 0;
+    padding: 10px;
+    color: black;
+}

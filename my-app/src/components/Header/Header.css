@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    gap: 57px;
+}
+
+.nav-link {
+    background-color: transparent;
+    border: none;
+    color: black;
+    cursor: pointer;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.nav-link.active {
+    text-decoration: underline;
+}
