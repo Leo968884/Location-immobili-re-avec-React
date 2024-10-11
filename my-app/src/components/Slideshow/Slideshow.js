@@ -18,7 +18,7 @@ const Slideshow = ({ images }) => {
 
     return (
         <div className="slideshow-container">
-            <img src={images[currentIndex]} alt={`Slide ${currentIndex}`} />
+            <img src={images[currentIndex]} alt={`Image ${currentIndex + 1}`} />
             {images.length > 1 && (
                 <>
                     <div className="arrow left fa-solid fa-chevron-left" onClick={goToPrevious}></div>

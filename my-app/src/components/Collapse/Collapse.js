@@ -15,7 +15,7 @@ const Collapse = ({ title, content }) => {
                 <i className={`fa-solid fa-chevron-up ${isOpen ? 'rotate' : ''}`}></i>
             </div>
             <div className={`collapse-content ${isOpen ? 'open' : ''}`}>
-                <p>{content}</p>
+                <div>{content}</div>
             </div>
         </div>
     );

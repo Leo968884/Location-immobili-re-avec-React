@@ -1,0 +1,15 @@
+.rating-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 4px;
+    font-size: 32px;
+}
+
+.fa-star {
+    color: #FF6060;
+}
+
+.neutral-star {
+    color: #E3E3E3;
+}
