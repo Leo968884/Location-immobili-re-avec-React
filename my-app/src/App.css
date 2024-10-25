@@ -1,8 +1,5 @@
 .layout-wrapper {
   max-width: 1240px;
-  margin: 30px auto;
-}
-
-.header {
-  margin-bottom: 50px;
+  margin: auto;
+  padding: 20px;
 }

@@ -21,23 +21,25 @@ const Accommodation = () => {
     return (
         <main id='accommodationpage'>
             <Slideshow images={images} />
-
-            <div className='accommodation-details'>
-                <div className='title-container'>
-                    <h3>{property.title}</h3>
-                    <h2>{property.location}</h2>
-                </div>
-                <div className='host-container'>
-                    <div className='host-name'>
-                        <p>{firstname}</p>
-                        <p>{lastname}</p>
+            <div className='accommodation-container'>
+                <div className='accommodation-details'>
+                    <div className='title-container'>
+                        <h3>{property.title}</h3>
+                        <h2>{property.location}</h2>
                     </div>
-                    <img src={property.host.picture} alt={`Photo de ${property.host.name}`} />
+                    <Tags tags={property.tags} />
                 </div>
-            </div>
-            <div className='accommodation-details'>
-                <Tags tags={property.tags} />
-                <Rating rating={property.rating} />
+                <div className='profil-details'>
+                    <div className='host-container'>
+                        <div className='host-name'>
+                            <p>{firstname}</p>
+                            <p>{lastname}</p>
+                        </div>
+                        <img src={property.host.picture} alt={`Photo de ${property.host.name}`} />
+                    </div>
+
+                    <Rating rating={property.rating} />
+                </div>
             </div>
             <div className='collapse-container'>
                 <Collapse title='Description' content={property.description} />

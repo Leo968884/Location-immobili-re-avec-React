@@ -6,7 +6,7 @@
 }
 
 .footer img {
-    width: 8%;
+    width: 122px;
     height: auto;
     filter: brightness(0) invert(1);
     padding-top: 46px;
@@ -15,4 +15,10 @@
 
 .footer p {
     font-size: 24px;
+}
+
+@media screen and (max-width: 740px) {
+    .footer p {
+        font-size: 12px;
+    }
 }

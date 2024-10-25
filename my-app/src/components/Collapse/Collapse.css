@@ -10,6 +10,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    border-radius: 5px;
     cursor: pointer;
     background-color: #FF6060;
 }
@@ -75,4 +76,15 @@
 
 #accommodationpage .equipments-list li {
     margin-bottom: 10px;
+}
+
+@media screen and (max-width: 740px) {
+    .collapse-container {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .collapse {
+        width: 100%;
+    }
 }

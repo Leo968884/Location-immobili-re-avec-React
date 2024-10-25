@@ -1,8 +1,4 @@
 .rating-container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 4px;
     font-size: 32px;
 }
 
@@ -12,4 +8,10 @@
 
 .neutral-star {
     color: #E3E3E3;
+}
+
+@media screen and (max-width: 740px) {
+    .rating-container {
+        display: block;
+    }
 }

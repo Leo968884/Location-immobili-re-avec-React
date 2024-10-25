@@ -11,12 +11,12 @@
     top: 36%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: rgba(0, 0, 0, 0.6);
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     font-size: 48px;
+    z-index: 1;
 
 }
 
@@ -25,4 +25,19 @@
     width: 100%;
     object-fit: cover;
     border-radius: 20px;
+}
+
+@media screen and (max-width: 740px) {
+
+    .banner {
+        height: 111px;
+    }
+
+    .banner h1 {
+        font-size: 24px;
+        justify-content: flex-start;
+        padding-left: 15px;
+    }
+
+
 }

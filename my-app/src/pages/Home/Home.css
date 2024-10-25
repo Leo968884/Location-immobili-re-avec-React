@@ -7,3 +7,18 @@
     margin-top: 43px;
     border-radius: 20px;
 }
+
+
+#homepage .banner img {
+    filter: brightness(0.35);
+}
+
+@media screen and (max-width: 740px) {
+    #homepage .accommodation-list {
+        width: 100%;
+        background-color: transparent;
+        flex-direction: column;
+        align-content: center;
+        padding: 0px;
+    }
+}

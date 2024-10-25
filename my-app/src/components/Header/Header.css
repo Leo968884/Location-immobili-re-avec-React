@@ -2,10 +2,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .logo img {
-    width: 100%;
+    width: 210px;
+    height: 68px;
 }
 
 .nav {
@@ -24,4 +26,26 @@
 
 .nav-link.active {
     text-decoration: underline;
+}
+
+
+@media screen and (max-width: 740px) {
+
+    .header {
+        margin-bottom: 20px;
+    }
+
+    .logo img {
+        width: 145px;
+        height: 46px;
+    }
+
+    .nav {
+        gap: 26px;
+    }
+
+    .nav-link {
+        font-size: 15px;
+    }
+
 }
