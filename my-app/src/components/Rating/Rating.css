@@ -10,7 +10,7 @@
     color: #E3E3E3;
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 830px) {
     .rating-container {
         display: block;
     }

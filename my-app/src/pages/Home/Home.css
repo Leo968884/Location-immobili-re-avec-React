@@ -13,7 +13,7 @@
     filter: brightness(0.35);
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 830px) {
     #homepage .accommodation-list {
         width: 100%;
         background-color: transparent;

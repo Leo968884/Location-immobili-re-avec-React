@@ -9,6 +9,8 @@
     text-align: center;
     margin: 139px;
     color: #FF6060;
+    text-shadow: 10px 0px 0px #FF6060;
+    letter-spacing: 20px;
 }
 
 .error404 p {
@@ -26,9 +28,11 @@
     color: black;
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 830px) {
     .error404 h2 {
         font-size: 96px;
+        text-shadow: 5px 0px 0px #FF6060;
+        letter-spacing: 20px;
     }
 
     .error404 p {

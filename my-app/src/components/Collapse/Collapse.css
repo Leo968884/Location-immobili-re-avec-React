@@ -78,7 +78,7 @@
     margin-bottom: 10px;
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 830px) {
     .collapse-container {
         flex-direction: column;
         gap: 0px;
